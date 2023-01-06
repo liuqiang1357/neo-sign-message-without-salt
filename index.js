@@ -24,7 +24,13 @@ function verifySignatureWithoutSalt(message, signature, publicKey) {
 }
 
 (async function () {
-  const message = 'Hello world';
+  const message = `Welcome to NeoChat!
+
+  Signing is the only way we can truly know that you are the owner of the wallet you are connecting. Signing is a safe, gas-less transaction that does not in any way give NeoChat permission to perform any transactions with your wallet.
+  
+  Wallet address: NbRfw7cUabP5JHB7ZrQfiM9WfmXQdKsRXp
+  
+  Nonce: 01GP32SXVTMYYWR2VD5PK713G3`;
   const wif = 'KyHyZH3neBJuGPJLByw5osr3XsqFPNTWHhDxRQCpYb3QW3jswe79';
   const { signature, publicKey } = signMessageWithoutSalt(message, wif);
   console.log(signature)

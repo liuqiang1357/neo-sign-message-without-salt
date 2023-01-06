@@ -30,7 +30,7 @@ function verifySignatureWithoutSalt(message, signature, publicKey) {
   
   Wallet address: NbRfw7cUabP5JHB7ZrQfiM9WfmXQdKsRXp
   
-  Nonce: 01GP32SXVTMYYWR2VD5PK713G3`;
+  Nonce: 01GP339DDMJDW297XXHE3ZG3ZM`;
   const wif = 'KyHyZH3neBJuGPJLByw5osr3XsqFPNTWHhDxRQCpYb3QW3jswe79';
   const { signature, publicKey } = signMessageWithoutSalt(message, wif);
   console.log(signature)

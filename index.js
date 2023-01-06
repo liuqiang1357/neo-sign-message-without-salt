@@ -30,7 +30,7 @@ Signing is the only way we can truly know that you are the owner of the wallet y
 
 Wallet address: NbRfw7cUabP5JHB7ZrQfiM9WfmXQdKsRXp
 
-Nonce: 01GP35X9075FZJ0RMPENJMB26M`;
+Nonce: 01GP37K7WR0EZ7RE7JJK07AQHP`;
 
   const wif = 'KyHyZH3neBJuGPJLByw5osr3XsqFPNTWHhDxRQCpYb3QW3jswe79';
   const { signature, publicKey } = signMessageWithoutSalt(message, wif);
